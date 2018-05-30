@@ -1,3 +1,3 @@
 Simple sketch illustrating the basic steps in Grover's algorithm.
 
-Can be seen at http://taas.ddns.net/qbranch/grover
+Can be seen in action [here](http://taas.ddns.net/qbranch/grover).
