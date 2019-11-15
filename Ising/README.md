@@ -4,12 +4,6 @@
 
 Testing ground-states of small (< 18-20 node) Ising Graphs.
 
-### Acknowledgments ###
-
-FileSaver.js
-
-https://github.com/eligrey/FileSaver.js/
-
 ### How do I get set up? ###
 
 Download repository and click on "index.html" to run.
@@ -37,3 +31,16 @@ After creating a graph, press buttons to do stuff.
 - Enable filtering of solutions by energy range or nth excited level
 - Enable saving of energy spectrum
 
+### Acknowledgments ###
+
+FileSaver.js
+
+https://github.com/eligrey/FileSaver.js/
+
+P5.js
+
+https://p5js.org/
+
+jQuery
+
+https://jquery.com/
