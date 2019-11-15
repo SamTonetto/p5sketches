@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <title>IsingSolver</title>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/jquery.js" type="text/javascript"></script>
+    
+    <script src="FileSaver.js/FileSaver.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="menu.js", type="text/javascript"></script>
+    <script src="Graph.js" type="text/javascript"></script>
+    <script src="WithinEps.js" type="text/javascript"></script>
+
+    <style>
+
+        body {
+            text-align: center;
+            background-color: rgb(255,255,255);
+            color: black;
+            padding: 0px;
+            font-family: 'Lato'; 
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -ms-user-select: none;
+        }
+        .canvases {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto; 
+            position: relative;
+        }
+    </style>
+
+
+  </head>
+  <body>
+    <h1> Ising Solver </h1>
+    <p> Create an Ising Graph and find the Energy Spectrum! </p>
+    <p> The weights on the graph are the J and h coefficients in the Hamiltonian: </p>
+    <img src="Hamiltonian.png" width="400px", height="77.9px">
+    <p id="instructions"> 
+        <br>Left click to create node or edit weights. Left-click two nodes to create edge. </br>
+        <br>Right click to remove node or edge.</br>
+    </p>
+    <div class="canvases" id="menuDiv" oncontextmenu="return false;"></div>
+    <div class="canvases" id="canvasDiv" oncontextmenu="return false;"></div>
+    <div class="canvases" id="resultsDiv" oncontextmenu="return false;"></div>
+  </body>
+</html>
