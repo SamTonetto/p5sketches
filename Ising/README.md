@@ -2,7 +2,9 @@
 
 ### What is this repository for? ###
 
-Testing ground-states of small (< 18-20 node) Ising Graphs.
+Testing ground-states of small (< 18-20 node) Ising Graphs. You can think of an Ising Graph as a representation of a Quadratic Polynomial with variables in the range {-1, +1} (also known as a Hamiltonian). Each vertex of the graph corresponds to a variable, and the edges correspond to quadratic terms in those variables.
+
+![Hamiltonian](https://samtonetto.github.com/p5sketches/Ising/Hamiltonian.png)
 
 ### How do I get set up? ###
 
