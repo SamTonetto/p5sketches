@@ -228,14 +228,16 @@ function draw() {
 	    text('Phase Inversion', 0.58*width, 0.05*height); 
 	} else if (inMeanStep == true || beginPhaseStep == true) {
 	    fill('white')
+	    stroke(200,0,0)
 	    rect(0.48*width, 0.015*height, 0.2*width, 0.05*height);
-	    fill('black')
+	    fill(200,0,0)
 	    text('Mean Inversion', 0.58*width, 0.05*height);
 	}
     }
 
     stroke(0,0,0,100)
-    line(xmid-xlen/2, ymid-ylen/2, xmid+xlen/2, ymid-ylen/2);
+    strokeWeight(1)
+    line(xmid-xlen/2, ymid-ylen/2-1, xmid+xlen/2, ymid-ylen/2-1);
     line(xmid-xlen/2, ymid+ylen/2, xmid+xlen/2, ymid+ylen/2);
 
 
